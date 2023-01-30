@@ -1,0 +1,32 @@
+h3{
+    text-align: center;
+}
+
+.linear{
+    border: 1px solid green;
+    height: 200px;
+    width: 400px;
+    background-image: linear-gradient(yellow,blue);
+    background-image: linear-gradient(to right,yellow,blue);
+    background-image: linear-gradient(to bottom left,yellow,blue,purple);
+}
+
+.radial{
+    border: 1px solid pink;
+    height: 250px;
+    width: 450px;
+    background-image: radial-gradient(red,green);
+    background-image: radial-gradient(circle, red,orange,green);
+}
+
+#conic{
+    border: 1px solid pink;
+    border-radius:50%;
+    height: 250px;
+    width: 450px;
+    background-image: conic-gradient(orange ,purple,green );
+}
+
+#text{
+    text-shadow: 2px 2px;
+}

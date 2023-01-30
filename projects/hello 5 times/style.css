@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#hello3{
+    align-self: center;
+}
+.wrap{
+    display: flex;
+}
+#hello2{
+    align-self: flex-end;
+    left: 20px;
+}
+
+#hello4{
+    align-self: flex-end;
+}
